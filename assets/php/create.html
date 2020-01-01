@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>::Create Account::</title>
+	<style type="text/css">
+		*{
+			background: #eee;
+			
+		}
+		.frm{
+			border: solid gray 1px;
+			margin-left: 50%;
+			width: 45%;
+			border-radius: 5px;
+			margin: 66px auto;
+			background:white;
+		}
+		#btn{
+			color: #fff;
+			background: #337ab7;
+			padding: 5px;
+			margin-left: 22%;
+		}
+		h2,input,h3{
+			margin-left: 22%;
+		}
+
+	</style>
+</head>
+<body>
+<div class="frm">
+	<form action="createproc.php" method="post">
+		<h2>UserName</h2>
+		<input type="text" name="username">
+		<h2>Email</h2>
+		<input type="text" name="email">
+		<h2>TelePhone</h2>
+		<input type="text" name="telephone">
+		<h2>Password</h2>
+		<input type="text" name="password">
+	    </br>
+
+		<input type="submit" name="btn" id="btn" value="Create Account">
+		<h3>si Vous etes Deja Membre <a href="login.html">LogIN</a></h3>
+	</form>
+</div>
+</body>
+</html>
